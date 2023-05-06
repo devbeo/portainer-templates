@@ -14,19 +14,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -42,7 +42,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/adguardhome-sync/config"
+				"bind": "/portainer/docker/adguardhome-sync/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -60,19 +60,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -94,23 +94,23 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/airsonic-advanced/config"
+				"bind": "/portainer/docker/airsonic-advanced/config"
 			},
 			{
 				"container": "/music",
-				"bind": "/volume1/docker/airsonic-advanced/music"
+				"bind": "/portainer/docker/airsonic-advanced/music"
 			},
 			{
 				"container": "/playlists",
-				"bind": "/volume1/docker/airsonic-advanced/playlists"
+				"bind": "/portainer/docker/airsonic-advanced/playlists"
 			},
 			{
 				"container": "/podcasts",
-				"bind": "/volume1/docker/airsonic-advanced/podcasts"
+				"bind": "/portainer/docker/airsonic-advanced/podcasts"
 			},
 			{
 				"container": "/media",
-				"bind": "/volume1/docker/airsonic-advanced/media"
+				"bind": "/portainer/docker/airsonic-advanced/media"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -131,19 +131,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -153,7 +153,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/apprise-api/config"
+				"bind": "/portainer/docker/apprise-api/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -171,19 +171,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -194,7 +194,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/audacity/config"
+				"bind": "/portainer/docker/audacity/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -212,19 +212,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -240,7 +240,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/babybuddy/config"
+				"bind": "/portainer/docker/babybuddy/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -261,19 +261,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -283,15 +283,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/bazarr/config"
+				"bind": "/portainer/docker/bazarr/config"
 			},
 			{
 				"container": "/movies",
-				"bind": "/volume1/docker/bazarr/movies"
+				"bind": "/portainer/docker/bazarr/movies"
 			},
 			{
 				"container": "/tv",
-				"bind": "/volume1/docker/bazarr/tv"
+				"bind": "/portainer/docker/bazarr/tv"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -312,19 +312,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -334,15 +334,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/beets/config"
+				"bind": "/portainer/docker/beets/config"
 			},
 			{
 				"container": "/music",
-				"bind": "/volume1/docker/beets/music"
+				"bind": "/portainer/docker/beets/music"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/beets/downloads"
+				"bind": "/portainer/docker/beets/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -360,19 +360,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -389,7 +389,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/blender/config"
+				"bind": "/portainer/docker/blender/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -410,19 +410,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -439,7 +439,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/boinc/config"
+				"bind": "/portainer/docker/boinc/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -460,19 +460,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -488,19 +488,19 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/booksonic-air/config"
+				"bind": "/portainer/docker/booksonic-air/config"
 			},
 			{
 				"container": "/audiobooks",
-				"bind": "/volume1/docker/booksonic-air/audiobooks"
+				"bind": "/portainer/docker/booksonic-air/audiobooks"
 			},
 			{
 				"container": "/podcasts",
-				"bind": "/volume1/docker/booksonic-air/podcasts"
+				"bind": "/portainer/docker/booksonic-air/podcasts"
 			},
 			{
 				"container": "/othermedia",
-				"bind": "/volume1/docker/booksonic-air/othermedia"
+				"bind": "/portainer/docker/booksonic-air/othermedia"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -521,19 +521,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -579,7 +579,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/bookstack/config"
+				"bind": "/portainer/docker/bookstack/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -597,19 +597,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -620,7 +620,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/budge/config"
+				"bind": "/portainer/docker/budge/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -638,19 +638,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -660,7 +660,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/build-agent/config"
+				"bind": "/portainer/docker/build-agent/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -681,19 +681,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -717,7 +717,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/calibre/config"
+				"bind": "/portainer/docker/calibre/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -738,19 +738,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -772,11 +772,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/calibre-web/config"
+				"bind": "/portainer/docker/calibre-web/config"
 			},
 			{
 				"container": "/books",
-				"bind": "/volume1/docker/calibre-web/books"
+				"bind": "/portainer/docker/calibre-web/books"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -794,19 +794,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -822,7 +822,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/changedetection.io/config"
+				"bind": "/portainer/docker/changedetection.io/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -840,19 +840,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -869,7 +869,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/chromium/config"
+				"bind": "/portainer/docker/chromium/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -887,19 +887,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -909,7 +909,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/ci/config"
+				"bind": "/portainer/docker/ci/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -930,19 +930,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -988,7 +988,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/code-server/config"
+				"bind": "/portainer/docker/code-server/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1009,19 +1009,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1031,11 +1031,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/cops/config"
+				"bind": "/portainer/docker/cops/config"
 			},
 			{
 				"container": "/books",
-				"bind": "/volume1/docker/cops/books"
+				"bind": "/portainer/docker/cops/books"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1057,30 +1057,30 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/daapd/config"
+				"bind": "/portainer/docker/daapd/config"
 			},
 			{
 				"container": "/music",
-				"bind": "/volume1/docker/daapd/music"
+				"bind": "/portainer/docker/daapd/music"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1101,19 +1101,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1124,7 +1124,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/darktable/config"
+				"bind": "/portainer/docker/darktable/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1145,19 +1145,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1167,11 +1167,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/davos/config"
+				"bind": "/portainer/docker/davos/config"
 			},
 			{
 				"container": "/download",
-				"bind": "/volume1/docker/davos/download"
+				"bind": "/portainer/docker/davos/download"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1192,26 +1192,26 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/ddclient/config"
+				"bind": "/portainer/docker/ddclient/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1232,19 +1232,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1262,11 +1262,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/deluge/config"
+				"bind": "/portainer/docker/deluge/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/deluge/downloads"
+				"bind": "/portainer/docker/deluge/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1287,19 +1287,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1316,7 +1316,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/digikam/config"
+				"bind": "/portainer/docker/digikam/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1337,19 +1337,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1359,7 +1359,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/dillinger/config"
+				"bind": "/portainer/docker/dillinger/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1380,19 +1380,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1426,11 +1426,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/diskover/config"
+				"bind": "/portainer/docker/diskover/config"
 			},
 			{
 				"container": "/data",
-				"bind": "/volume1/docker/diskover/data"
+				"bind": "/portainer/docker/diskover/data"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1451,19 +1451,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1474,7 +1474,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/dokuwiki/config"
+				"bind": "/portainer/docker/dokuwiki/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1495,19 +1495,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1531,7 +1531,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/domoticz/config"
+				"bind": "/portainer/docker/domoticz/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1549,19 +1549,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1676,7 +1676,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/doplarr/config"
+				"bind": "/portainer/docker/doplarr/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1697,19 +1697,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1720,11 +1720,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/doublecommander/config"
+				"bind": "/portainer/docker/doublecommander/config"
 			},
 			{
 				"container": "/data",
-				"bind": "/volume1/docker/doublecommander/data"
+				"bind": "/portainer/docker/doublecommander/data"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1742,19 +1742,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1779,7 +1779,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/duckdns/config"
+				"bind": "/portainer/docker/duckdns/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1797,19 +1797,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1825,15 +1825,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/duplicati/config"
+				"bind": "/portainer/docker/duplicati/config"
 			},
 			{
 				"container": "/backups",
-				"bind": "/volume1/docker/duplicati/backups"
+				"bind": "/portainer/docker/duplicati/backups"
 			},
 			{
 				"container": "/source",
-				"bind": "/volume1/docker/duplicati/source"
+				"bind": "/portainer/docker/duplicati/source"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1854,19 +1854,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1877,15 +1877,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/emby/config"
+				"bind": "/portainer/docker/emby/config"
 			},
 			{
 				"container": "/data/tvshows",
-				"bind": "/volume1/docker/emby/data/tvshows"
+				"bind": "/portainer/docker/emby/data/tvshows"
 			},
 			{
 				"container": "/data/movies",
-				"bind": "/volume1/docker/emby/data/movies"
+				"bind": "/portainer/docker/emby/data/movies"
 			},
 			{
 				"container": "/opt/vc/lib",
@@ -1907,19 +1907,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -1929,7 +1929,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/embystat/config"
+				"bind": "/portainer/docker/embystat/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1947,19 +1947,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -1977,11 +1977,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/emulatorjs/config"
+				"bind": "/portainer/docker/emulatorjs/config"
 			},
 			{
 				"container": "/data",
-				"bind": "/volume1/docker/emulatorjs/data"
+				"bind": "/portainer/docker/emulatorjs/data"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -1999,19 +1999,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2051,7 +2051,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/endlessh/config"
+				"bind": "/portainer/docker/endlessh/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2070,19 +2070,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2092,79 +2092,79 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/fail2ban/config"
+				"bind": "/portainer/docker/fail2ban/config"
 			},
 			{
 				"container": "/var/log:ro",
-				"bind": "/volume1/docker/fail2ban/var/log:ro"
+				"bind": "/portainer/docker/fail2ban/var/log:ro"
 			},
 			{
 				"container": "/remotelogs/airsonic:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/airsonic:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/airsonic:ro"
 			},
 			{
 				"container": "/remotelogs/apache2:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/apache2:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/apache2:ro"
 			},
 			{
 				"container": "/remotelogs/authelia:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/authelia:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/authelia:ro"
 			},
 			{
 				"container": "/remotelogs/emby:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/emby:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/emby:ro"
 			},
 			{
 				"container": "/remotelogs/filebrowser:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/filebrowser:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/filebrowser:ro"
 			},
 			{
 				"container": "/remotelogs/homeassistant:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/homeassistant:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/homeassistant:ro"
 			},
 			{
 				"container": "/remotelogs/lighttpd:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/lighttpd:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/lighttpd:ro"
 			},
 			{
 				"container": "/remotelogs/nextcloud:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/nextcloud:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/nextcloud:ro"
 			},
 			{
 				"container": "/remotelogs/nginx:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/nginx:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/nginx:ro"
 			},
 			{
 				"container": "/remotelogs/nzbget:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/nzbget:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/nzbget:ro"
 			},
 			{
 				"container": "/remotelogs/overseerr:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/overseerr:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/overseerr:ro"
 			},
 			{
 				"container": "/remotelogs/prowlarr:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/prowlarr:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/prowlarr:ro"
 			},
 			{
 				"container": "/remotelogs/radarr:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/radarr:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/radarr:ro"
 			},
 			{
 				"container": "/remotelogs/sabnzbd:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/sabnzbd:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/sabnzbd:ro"
 			},
 			{
 				"container": "/remotelogs/sonarr:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/sonarr:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/sonarr:ro"
 			},
 			{
 				"container": "/remotelogs/unificontroller:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/unificontroller:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/unificontroller:ro"
 			},
 			{
 				"container": "/remotelogs/vaultwarden:ro",
-				"bind": "/volume1/docker/fail2ban/remotelogs/vaultwarden:ro"
+				"bind": "/portainer/docker/fail2ban/remotelogs/vaultwarden:ro"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2182,19 +2182,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2207,7 +2207,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/feed2toot/config"
+				"bind": "/portainer/docker/feed2toot/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2225,19 +2225,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2247,7 +2247,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/ffmpeg/config"
+				"bind": "/portainer/docker/ffmpeg/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2265,19 +2265,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2288,7 +2288,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/filezilla/config"
+				"bind": "/portainer/docker/filezilla/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2306,19 +2306,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2329,7 +2329,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/firefox/config"
+				"bind": "/portainer/docker/firefox/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2347,19 +2347,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2399,7 +2399,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/fleet/config"
+				"bind": "/portainer/docker/fleet/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2417,19 +2417,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2440,7 +2440,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/foldingathome/config"
+				"bind": "/portainer/docker/foldingathome/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2458,19 +2458,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2480,7 +2480,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/freshrss/config"
+				"bind": "/portainer/docker/freshrss/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2498,19 +2498,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2521,7 +2521,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/github-desktop/config"
+				"bind": "/portainer/docker/github-desktop/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2539,19 +2539,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2562,7 +2562,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/gitqlient/config"
+				"bind": "/portainer/docker/gitqlient/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2583,19 +2583,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2605,7 +2605,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/grav/config"
+				"bind": "/portainer/docker/grav/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2623,19 +2623,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2645,7 +2645,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/grocy/config"
+				"bind": "/portainer/docker/grocy/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2663,19 +2663,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2692,7 +2692,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/habridge/config"
+				"bind": "/portainer/docker/habridge/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2710,19 +2710,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -2732,15 +2732,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/headphones/config"
+				"bind": "/portainer/docker/headphones/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/headphones/downloads"
+				"bind": "/portainer/docker/headphones/downloads"
 			},
 			{
 				"container": "/music",
-				"bind": "/volume1/docker/headphones/music"
+				"bind": "/portainer/docker/headphones/music"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2758,19 +2758,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2889,7 +2889,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/healthchecks/config"
+				"bind": "/portainer/docker/healthchecks/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -2910,19 +2910,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -2992,7 +2992,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/hedgedoc/config"
+				"bind": "/portainer/docker/hedgedoc/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3010,19 +3010,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3033,7 +3033,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/heimdall/config"
+				"bind": "/portainer/docker/heimdall/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3055,19 +3055,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3077,7 +3077,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/homeassistant/config"
+				"bind": "/portainer/docker/homeassistant/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3095,19 +3095,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3117,7 +3117,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/htpcmanager/config"
+				"bind": "/portainer/docker/htpcmanager/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3135,19 +3135,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3169,11 +3169,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/jackett/config"
+				"bind": "/portainer/docker/jackett/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/jackett/downloads"
+				"bind": "/portainer/docker/jackett/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3191,19 +3191,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3222,15 +3222,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/jellyfin/config"
+				"bind": "/portainer/docker/jellyfin/config"
 			},
 			{
 				"container": "/data/tvshows",
-				"bind": "/volume1/docker/jellyfin/data/tvshows"
+				"bind": "/portainer/docker/jellyfin/data/tvshows"
 			},
 			{
 				"container": "/data/movies",
-				"bind": "/volume1/docker/jellyfin/data/movies"
+				"bind": "/portainer/docker/jellyfin/data/movies"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3248,19 +3248,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3270,7 +3270,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/jenkins-builder/config"
+				"bind": "/portainer/docker/jenkins-builder/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3312,11 +3312,11 @@
 			"volumes": [
 			{
 				"container": "/opt",
-				"bind": "/volume1/docker/kasm/opt"
+				"bind": "/portainer/docker/kasm/opt"
 			},
 			{
 				"container": "/profiles",
-				"bind": "/volume1/docker/kasm/profiles"
+				"bind": "/portainer/docker/kasm/profiles"
 			},
 			{
 				"container": "/dev/input",
@@ -3342,19 +3342,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3371,7 +3371,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/kdenlive/config"
+				"bind": "/portainer/docker/kdenlive/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3389,19 +3389,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3417,15 +3417,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/lazylibrarian/config"
+				"bind": "/portainer/docker/lazylibrarian/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/lazylibrarian/downloads"
+				"bind": "/portainer/docker/lazylibrarian/downloads"
 			},
 			{
 				"container": "/books",
-				"bind": "/volume1/docker/lazylibrarian/books"
+				"bind": "/portainer/docker/lazylibrarian/books"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3481,19 +3481,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3504,7 +3504,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/libreoffice/config"
+				"bind": "/portainer/docker/libreoffice/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3522,19 +3522,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3592,7 +3592,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/librespeed/config"
+				"bind": "/portainer/docker/librespeed/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3610,19 +3610,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3632,15 +3632,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/lidarr/config"
+				"bind": "/portainer/docker/lidarr/config"
 			},
 			{
 				"container": "/music",
-				"bind": "/volume1/docker/lidarr/music"
+				"bind": "/portainer/docker/lidarr/music"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/lidarr/downloads"
+				"bind": "/portainer/docker/lidarr/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3658,19 +3658,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3680,7 +3680,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/limnoria/config"
+				"bind": "/portainer/docker/limnoria/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3698,19 +3698,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -3721,7 +3721,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/lollypop/config"
+				"bind": "/portainer/docker/lollypop/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3739,19 +3739,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3791,11 +3791,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/lychee/config"
+				"bind": "/portainer/docker/lychee/config"
 			},
 			{
 				"container": "/pictures",
-				"bind": "/volume1/docker/lychee/pictures"
+				"bind": "/portainer/docker/lychee/pictures"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3813,19 +3813,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -3865,7 +3865,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/mariadb/config"
+				"bind": "/portainer/docker/mariadb/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -3886,19 +3886,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4107,7 +4107,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/mastodon/config"
+				"bind": "/portainer/docker/mastodon/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4125,19 +4125,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4147,15 +4147,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/medusa/config"
+				"bind": "/portainer/docker/medusa/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/medusa/downloads"
+				"bind": "/portainer/docker/medusa/downloads"
 			},
 			{
 				"container": "/tv",
-				"bind": "/volume1/docker/medusa/tv"
+				"bind": "/portainer/docker/medusa/tv"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4173,19 +4173,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4201,7 +4201,7 @@
 			"volumes": [
 			{
 				"container": "/config/.minetest",
-				"bind": "/volume1/docker/minetest/config/.minetest"
+				"bind": "/portainer/docker/minetest/config/.minetest"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4219,19 +4219,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4249,7 +4249,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/minisatip/config"
+				"bind": "/portainer/docker/minisatip/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4267,19 +4267,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4289,11 +4289,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/mstream/config"
+				"bind": "/portainer/docker/mstream/config"
 			},
 			{
 				"container": "/music",
-				"bind": "/volume1/docker/mstream/music"
+				"bind": "/portainer/docker/mstream/music"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4311,19 +4311,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4340,7 +4340,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/mullvad-browser/config"
+				"bind": "/portainer/docker/mullvad-browser/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4358,19 +4358,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4380,15 +4380,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/mylar3/config"
+				"bind": "/portainer/docker/mylar3/config"
 			},
 			{
 				"container": "/comics",
-				"bind": "/volume1/docker/mylar3/comics"
+				"bind": "/portainer/docker/mylar3/comics"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/mylar3/downloads"
+				"bind": "/portainer/docker/mylar3/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4406,19 +4406,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4429,7 +4429,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/mysql-workbench/config"
+				"bind": "/portainer/docker/mysql-workbench/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4447,19 +4447,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4513,7 +4513,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/nano/config"
+				"bind": "/portainer/docker/nano/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4545,19 +4545,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4587,11 +4587,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/netbootxyz/config"
+				"bind": "/portainer/docker/netbootxyz/config"
 			},
 			{
 				"container": "/assets",
-				"bind": "/volume1/docker/netbootxyz/assets"
+				"bind": "/portainer/docker/netbootxyz/assets"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4609,19 +4609,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4751,7 +4751,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/netbox/config"
+				"bind": "/portainer/docker/netbox/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4769,19 +4769,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4791,11 +4791,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/nextcloud/config"
+				"bind": "/portainer/docker/nextcloud/config"
 			},
 			{
 				"container": "/data",
-				"bind": "/volume1/docker/nextcloud/data"
+				"bind": "/portainer/docker/nextcloud/data"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4813,19 +4813,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4836,7 +4836,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/nginx/config"
+				"bind": "/portainer/docker/nginx/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4854,19 +4854,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4876,7 +4876,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/ngircd/config"
+				"bind": "/portainer/docker/ngircd/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4894,19 +4894,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -4928,7 +4928,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/nntp2nntp/config"
+				"bind": "/portainer/docker/nntp2nntp/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4946,19 +4946,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -4968,11 +4968,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/nzbhydra2/config"
+				"bind": "/portainer/docker/nzbhydra2/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/nzbhydra2/downloads"
+				"bind": "/portainer/docker/nzbhydra2/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -4990,19 +4990,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5018,7 +5018,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/ombi/config"
+				"bind": "/portainer/docker/ombi/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5036,19 +5036,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5112,7 +5112,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/openssh-server/config"
+				"bind": "/portainer/docker/openssh-server/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5130,19 +5130,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5176,7 +5176,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/openvscode-server/config"
+				"bind": "/portainer/docker/openvscode-server/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5194,19 +5194,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5223,7 +5223,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/opera/config"
+				"bind": "/portainer/docker/opera/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5241,19 +5241,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -5263,7 +5263,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/oscam/config"
+				"bind": "/portainer/docker/oscam/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5284,19 +5284,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -5306,7 +5306,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/overseerr/config"
+				"bind": "/portainer/docker/overseerr/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5324,19 +5324,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5385,19 +5385,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5419,7 +5419,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/phpmyadmin/config"
+				"bind": "/portainer/docker/phpmyadmin/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5437,19 +5437,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -5460,7 +5460,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/pidgin/config"
+				"bind": "/portainer/docker/pidgin/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5478,19 +5478,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -5500,11 +5500,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/piwigo/config"
+				"bind": "/portainer/docker/piwigo/config"
 			},
 			{
 				"container": "/gallery",
-				"bind": "/volume1/docker/piwigo/gallery"
+				"bind": "/portainer/docker/piwigo/gallery"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5523,19 +5523,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5554,15 +5554,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/plex/config"
+				"bind": "/portainer/docker/plex/config"
 			},
 			{
 				"container": "/tv",
-				"bind": "/volume1/docker/plex/tv"
+				"bind": "/portainer/docker/plex/tv"
 			},
 			{
 				"container": "/movies",
-				"bind": "/volume1/docker/plex/movies"
+				"bind": "/portainer/docker/plex/movies"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5583,19 +5583,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5632,7 +5632,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/plex-meta-manager/config"
+				"bind": "/portainer/docker/plex-meta-manager/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5650,19 +5650,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5678,11 +5678,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/projectsend/config"
+				"bind": "/portainer/docker/projectsend/config"
 			},
 			{
 				"container": "/data",
-				"bind": "/volume1/docker/projectsend/data"
+				"bind": "/portainer/docker/projectsend/data"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5700,19 +5700,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -5722,7 +5722,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/prowlarr/config"
+				"bind": "/portainer/docker/prowlarr/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5740,19 +5740,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5768,7 +5768,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/pwndrop/config"
+				"bind": "/portainer/docker/pwndrop/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5786,19 +5786,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5821,7 +5821,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/pydio-cells/config"
+				"bind": "/portainer/docker/pydio-cells/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5839,19 +5839,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -5862,11 +5862,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/pyload-ng/config"
+				"bind": "/portainer/docker/pyload-ng/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/pyload-ng/downloads"
+				"bind": "/portainer/docker/pyload-ng/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5884,19 +5884,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5924,11 +5924,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/pylon/config"
+				"bind": "/portainer/docker/pylon/config"
 			},
 			{
 				"container": "/code",
-				"bind": "/volume1/docker/pylon/code"
+				"bind": "/portainer/docker/pylon/code"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5946,19 +5946,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -5976,11 +5976,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/qbittorrent/config"
+				"bind": "/portainer/docker/qbittorrent/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/qbittorrent/downloads"
+				"bind": "/portainer/docker/qbittorrent/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -5998,19 +5998,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6021,11 +6021,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/qdirstat/config"
+				"bind": "/portainer/docker/qdirstat/config"
 			},
 			{
 				"container": "/data",
-				"bind": "/volume1/docker/qdirstat/data"
+				"bind": "/portainer/docker/qdirstat/data"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6043,19 +6043,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -6072,7 +6072,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/quassel-core/config"
+				"bind": "/portainer/docker/quassel-core/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6090,19 +6090,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -6130,7 +6130,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/quassel-web/config"
+				"bind": "/portainer/docker/quassel-web/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6148,19 +6148,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6170,15 +6170,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/radarr/config"
+				"bind": "/portainer/docker/radarr/config"
 			},
 			{
 				"container": "/movies",
-				"bind": "/volume1/docker/radarr/movies"
+				"bind": "/portainer/docker/radarr/movies"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/radarr/downloads"
+				"bind": "/portainer/docker/radarr/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6196,19 +6196,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6218,7 +6218,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/raneto/config"
+				"bind": "/portainer/docker/raneto/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6236,19 +6236,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6262,7 +6262,7 @@
 			},
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/rdesktop/config"
+				"bind": "/portainer/docker/rdesktop/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6280,19 +6280,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6302,7 +6302,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/readme-sync/config"
+				"bind": "/portainer/docker/readme-sync/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6320,19 +6320,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6343,7 +6343,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/remmina/config"
+				"bind": "/portainer/docker/remmina/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6364,19 +6364,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6386,7 +6386,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/requestrr/config"
+				"bind": "/portainer/docker/requestrr/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6404,19 +6404,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6427,15 +6427,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/resilio-sync/config"
+				"bind": "/portainer/docker/resilio-sync/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/resilio-sync/downloads"
+				"bind": "/portainer/docker/resilio-sync/downloads"
 			},
 			{
 				"container": "/sync",
-				"bind": "/volume1/docker/resilio-sync/sync"
+				"bind": "/portainer/docker/resilio-sync/sync"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6453,19 +6453,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6475,15 +6475,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/rsnapshot/config"
+				"bind": "/portainer/docker/rsnapshot/config"
 			},
 			{
 				"container": "/.snapshots",
-				"bind": "/volume1/docker/rsnapshot/.snapshots"
+				"bind": "/portainer/docker/rsnapshot/.snapshots"
 			},
 			{
 				"container": "/data",
-				"bind": "/volume1/docker/rsnapshot/data"
+				"bind": "/portainer/docker/rsnapshot/data"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6501,19 +6501,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6523,15 +6523,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/sabnzbd/config"
+				"bind": "/portainer/docker/sabnzbd/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/sabnzbd/downloads"
+				"bind": "/portainer/docker/sabnzbd/downloads"
 			},
 			{
 				"container": "/incomplete-downloads",
-				"bind": "/volume1/docker/sabnzbd/incomplete-downloads"
+				"bind": "/portainer/docker/sabnzbd/incomplete-downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6549,19 +6549,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6571,15 +6571,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/sickchill/config"
+				"bind": "/portainer/docker/sickchill/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/sickchill/downloads"
+				"bind": "/portainer/docker/sickchill/downloads"
 			},
 			{
 				"container": "/tv",
-				"bind": "/volume1/docker/sickchill/tv"
+				"bind": "/portainer/docker/sickchill/tv"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6597,19 +6597,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6619,15 +6619,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/sickgear/config"
+				"bind": "/portainer/docker/sickgear/config"
 			},
 			{
 				"container": "/tv",
-				"bind": "/volume1/docker/sickgear/tv"
+				"bind": "/portainer/docker/sickgear/tv"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/sickgear/downloads"
+				"bind": "/portainer/docker/sickgear/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6645,19 +6645,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6667,11 +6667,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/smokeping/config"
+				"bind": "/portainer/docker/smokeping/config"
 			},
 			{
 				"container": "/data",
-				"bind": "/volume1/docker/smokeping/data"
+				"bind": "/portainer/docker/smokeping/data"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6689,19 +6689,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6712,7 +6712,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/snapdrop/config"
+				"bind": "/portainer/docker/snapdrop/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6730,19 +6730,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -6788,7 +6788,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/snipe-it/config"
+				"bind": "/portainer/docker/snipe-it/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6809,19 +6809,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6831,15 +6831,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/sonarr/config"
+				"bind": "/portainer/docker/sonarr/config"
 			},
 			{
 				"container": "/tv",
-				"bind": "/volume1/docker/sonarr/tv"
+				"bind": "/portainer/docker/sonarr/tv"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/sonarr/downloads"
+				"bind": "/portainer/docker/sonarr/downloads"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6857,19 +6857,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -6880,7 +6880,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/sqlitebrowser/config"
+				"bind": "/portainer/docker/sqlitebrowser/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -6898,19 +6898,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -6981,7 +6981,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/swag/config"
+				"bind": "/portainer/docker/swag/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7033,19 +7033,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7058,15 +7058,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/syncthing/config"
+				"bind": "/portainer/docker/syncthing/config"
 			},
 			{
 				"container": "/data1",
-				"bind": "/volume1/docker/syncthing/data1"
+				"bind": "/portainer/docker/syncthing/data1"
 			},
 			{
 				"container": "/data2",
-				"bind": "/volume1/docker/syncthing/data2"
+				"bind": "/portainer/docker/syncthing/data2"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7087,19 +7087,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7111,7 +7111,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/syslog-ng/config"
+				"bind": "/portainer/docker/syslog-ng/config"
 			},
 			{
 				"container": "/var/log",
@@ -7133,19 +7133,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7155,7 +7155,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/tautulli/config"
+				"bind": "/portainer/docker/tautulli/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7195,19 +7195,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7217,7 +7217,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/thelounge/config"
+				"bind": "/portainer/docker/thelounge/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7235,19 +7235,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7295,15 +7295,15 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/transmission/config"
+				"bind": "/portainer/docker/transmission/config"
 			},
 			{
 				"container": "/downloads",
-				"bind": "/volume1/docker/transmission/downloads"
+				"bind": "/portainer/docker/transmission/downloads"
 			},
 			{
 				"container": "/watch",
-				"bind": "/volume1/docker/transmission/watch"
+				"bind": "/portainer/docker/transmission/watch"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7321,19 +7321,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7350,11 +7350,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/tvheadend/config"
+				"bind": "/portainer/docker/tvheadend/config"
 			},
 			{
 				"container": "/recordings",
-				"bind": "/volume1/docker/tvheadend/recordings"
+				"bind": "/portainer/docker/tvheadend/recordings"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7372,19 +7372,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7401,19 +7401,19 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/ubooquity/config"
+				"bind": "/portainer/docker/ubooquity/config"
 			},
 			{
 				"container": "/books",
-				"bind": "/volume1/docker/ubooquity/books"
+				"bind": "/portainer/docker/ubooquity/books"
 			},
 			{
 				"container": "/comics",
-				"bind": "/volume1/docker/ubooquity/comics"
+				"bind": "/portainer/docker/ubooquity/comics"
 			},
 			{
 				"container": "/files",
-				"bind": "/volume1/docker/ubooquity/files"
+				"bind": "/portainer/docker/ubooquity/files"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7434,31 +7434,31 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
 					"name": "MEM_LIMIT",
 					"label": "MEM_LIMIT",
-					"default": "1024",
+					"default": "1000",
 					"description": "Optionally change the Java memory limit (in Megabytes). Set to `default` to reset to default"
 				},
 				{
 					"name": "MEM_STARTUP",
 					"label": "MEM_STARTUP",
-					"default": "1024",
+					"default": "1000",
 					"description": "Optionally change the Java initial/minimum memory (in Megabytes). Set to `default` to reset to default"
 				}
 			],
@@ -7476,7 +7476,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/unifi-controller/config"
+				"bind": "/portainer/docker/unifi-controller/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7494,19 +7494,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7517,7 +7517,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/vscodium/config"
+				"bind": "/portainer/docker/vscodium/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7535,19 +7535,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7558,7 +7558,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/webcord/config"
+				"bind": "/portainer/docker/webcord/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7576,30 +7576,30 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/webgrabplus/config"
+				"bind": "/portainer/docker/webgrabplus/config"
 			},
 			{
 				"container": "/data",
-				"bind": "/volume1/docker/webgrabplus/data"
+				"bind": "/portainer/docker/webgrabplus/data"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7620,19 +7620,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7655,7 +7655,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/webtop/config"
+				"bind": "/portainer/docker/webtop/config"
 			},
 			{
 				"container": "/var/run/docker.sock",
@@ -7677,19 +7677,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7735,11 +7735,11 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/wikijs/config"
+				"bind": "/portainer/docker/wikijs/config"
 			},
 			{
 				"container": "/data",
-				"bind": "/volume1/docker/wikijs/data"
+				"bind": "/portainer/docker/wikijs/data"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7757,19 +7757,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -7827,7 +7827,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/wireguard/config"
+				"bind": "/portainer/docker/wireguard/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7846,19 +7846,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7869,7 +7869,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/wireshark/config"
+				"bind": "/portainer/docker/wireshark/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7887,19 +7887,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7910,7 +7910,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/wps-office/config"
+				"bind": "/portainer/docker/wps-office/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7928,19 +7928,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7951,7 +7951,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/xbackbone/config"
+				"bind": "/portainer/docker/xbackbone/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -7969,19 +7969,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				},
 				{
@@ -8034,19 +8034,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8056,7 +8056,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/yq/config"
+				"bind": "/portainer/docker/yq/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
@@ -8074,19 +8074,19 @@
 				{
 					"name": "PUID",
 					"label": "PUID",
-					"default": "1024",
+					"default": "1000",
 					"description": "for UserID"
 				},
 				{
 					"name": "PGID",
 					"label": "PGID",
-					"default": "100",
+					"default": "1000",
 					"description": "for GroupID"
 				},
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Asia/Ho_Chi_Minh",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -8096,7 +8096,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/znc/config"
+				"bind": "/portainer/docker/znc/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
